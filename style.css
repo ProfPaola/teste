@@ -1,0 +1,137 @@
+body {
+  background: lightblue;
+}
+
+.head,
+.face,
+.ear_l,
+.ear_r,
+.ear_inner,
+.eye_l,
+.eye_r,
+.eye_inner,
+.nose,
+.mouth,
+.mouth_inner{
+  position: absolute;
+}
+
+.container {
+  position: relative;
+  border-style: solid;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.head {
+  background: beige;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.face{
+  background: beige;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.ear_l,
+.ear_r {
+  background: beige;
+  width: 14%;
+  height: 22%;
+  border-radius: 50%;
+  top: 36%;;
+}
+
+.ear_l {
+  left: -8%;
+}
+
+.ear_r {
+  right: -8%;
+}
+
+.ear_inner {
+  background: burlywood;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.eye_l, .eye_r{
+  background: white;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  top: 25%;
+}
+
+.eye_l {
+  left: 18%;
+}
+
+.eye_r {
+  right: 18%;
+}
+
+.eye_inner{
+  background: black;
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.nose{
+  background: burlywood;
+  width: 10%;
+  height: 5%;
+  border-radius: 30%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 60%;
+}
+
+.mouth{
+  background: indianred;
+  width: 20%;
+  height: 15%;
+  border-radius: 30% 30% 80% 80%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 75%;
+  overflow: hidden;
+}
+
+.mouth_inner{
+  background: pink;
+  width: 100%;
+  height: 50%;
+  border-radius: 30% 30% 80% 80%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 60%;
+}
